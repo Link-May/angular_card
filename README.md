@@ -2,6 +2,9 @@
 
 codigo en drive: https://drive.google.com/drive/folders/1KAPDwIMOTenCk-KPonB2TIktjMmPMwjP?usp=share_link
 
+![Imagen de WhatsApp 2023-04-28 a las 06 23 07](https://user-images.githubusercontent.com/90990023/235209551-d4ea8519-8014-41c7-bf48-4c91b742a283.jpg)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.3.
 
 ## Development server
