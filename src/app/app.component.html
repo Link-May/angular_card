@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Business Card App</title>
+    <title>Aplicación de tarjeta de visita</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Agregar aquí los enlaces a los archivos de estilo y scripts que necesite la aplicación -->
@@ -11,30 +11,32 @@
   </head>
   <body>
     <div class="container">
-      <h1>Business Card Form</h1>
+      <h1>tarjeta de visita </h1>
       <form (ngSubmit)="submitForm()" #businessCardForm="ngForm">
         <div class="form-group">
-          <label for="nameInput">Name</label>
+          <label for="nameInput">Nombre</label>
           <input type="text" class="form-control" id="nameInput" name="name" [(ngModel)]="name" required>
         </div>
         <div class="form-group">
-          <label for="jobTitleInput">Job Title</label>
+          <label for="jobTitleInput">
+Título profesional</label>
           <input type="text" class="form-control" id="jobTitleInput" name="jobTitle" [(ngModel)]="jobTitle" required>
         </div>
         <div class="form-group">
-          <label for="emailInput">Email address</label>
+          <label for="emailInput">correo electrónico</label>
           <input type="email" class="form-control" id="emailInput" name="email" [(ngModel)]="email" required>
         </div>
         <div class="form-group">
-          <label for="phoneInput">Phone</label>
+          <label for="phoneInput">
+teléfono</label>
           <input type="tel" class="form-control" id="phoneInput" name="phone" [(ngModel)]="phone" required>
         </div>
         <div class="form-group">
-          <label for="addressInput">Address</label>
+          <label for="addressInput">Dirrecion</label>
           <input type="text" class="form-control" id="addressInput" name="address" [(ngModel)]="address" required>
         </div>
         <div class="form-group">
-          <label for="websiteInput">Website</label>
+          <label for="websiteInput">Sitio Web</label>
           <input type="text" class="form-control" id="websiteInput" name="website" [(ngModel)]="website" required>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
